@@ -13,6 +13,7 @@ struct ContentView: View {
     @State var count = 1
     var body: some View {
         ZStack {
+            
             Color.backgroundColor
                 .edgesIgnoringSafeArea(.all)
             VStack {
